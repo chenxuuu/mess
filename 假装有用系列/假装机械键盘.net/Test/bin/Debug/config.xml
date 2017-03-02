@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <Function Name="a" Checked="True" />
+  <Function Name="b" Checked="False" />
+  <Function Name="c" Checked="True" />
+  <Function Name="d" Checked="False" />
+</config>

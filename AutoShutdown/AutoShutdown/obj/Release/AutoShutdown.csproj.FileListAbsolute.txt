@@ -1,0 +1,9 @@
+E:\Desktop\AutoShutdown\AutoShutdown\bin\Release\AutoShutdown.exe.config
+E:\Desktop\AutoShutdown\AutoShutdown\bin\Release\AutoShutdown.exe
+E:\Desktop\AutoShutdown\AutoShutdown\bin\Release\AutoShutdown.pdb
+E:\Desktop\AutoShutdown\AutoShutdown\obj\Release\AutoShutdown.Form1.resources
+E:\Desktop\AutoShutdown\AutoShutdown\obj\Release\AutoShutdown.Properties.Resources.resources
+E:\Desktop\AutoShutdown\AutoShutdown\obj\Release\AutoShutdown.csproj.GenerateResource.Cache
+E:\Desktop\AutoShutdown\AutoShutdown\obj\Release\AutoShutdown.exe
+E:\Desktop\AutoShutdown\AutoShutdown\obj\Release\AutoShutdown.pdb
+E:\Desktop\AutoShutdown\AutoShutdown\obj\Release\AutoShutdown.csprojResolveAssemblyReference.cache

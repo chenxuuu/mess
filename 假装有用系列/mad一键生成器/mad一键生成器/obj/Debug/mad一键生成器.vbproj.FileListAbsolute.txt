@@ -1,0 +1,13 @@
+E:\Desktop\mad一键生成器\mad一键生成器\bin\Debug\mad一键生成器.exe.config
+E:\Desktop\mad一键生成器\mad一键生成器\bin\Debug\mad一键生成器.exe
+E:\Desktop\mad一键生成器\mad一键生成器\bin\Debug\mad一键生成器.pdb
+E:\Desktop\mad一键生成器\mad一键生成器\bin\Debug\mad一键生成器.xml
+E:\Desktop\mad一键生成器\mad一键生成器\obj\Debug\mad一键生成器.vbprojResolveAssemblyReference.cache
+E:\Desktop\mad一键生成器\mad一键生成器\obj\Debug\mad一键生成器.Form1.resources
+E:\Desktop\mad一键生成器\mad一键生成器\obj\Debug\mad一键生成器.Resources.resources
+E:\Desktop\mad一键生成器\mad一键生成器\obj\Debug\mad一键生成器.vbproj.GenerateResource.Cache
+E:\Desktop\mad一键生成器\mad一键生成器\obj\Debug\mad一键生成器.exe
+E:\Desktop\mad一键生成器\mad一键生成器\obj\Debug\mad一键生成器.xml
+E:\Desktop\mad一键生成器\mad一键生成器\obj\Debug\mad一键生成器.pdb
+E:\Desktop\mad一键生成器\mad一键生成器\obj\Debug\mad一键生成器.Form2.resources
+E:\Desktop\mad一键生成器\mad一键生成器\obj\Debug\mad一键生成器.Form3.resources

@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "刷q钻", "刷q钻\刷q钻.vbproj", "{6D0A946F-29AA-4155-9C03-0364B0C4E63B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{22F7DE1C-F73C-41E6-8D5E-4D0D995E9C8E}"
+	ProjectSection(SolutionItems) = preProject
+		Class1.vb = Class1.vb
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D0A946F-29AA-4155-9C03-0364B0C4E63B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D0A946F-29AA-4155-9C03-0364B0C4E63B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D0A946F-29AA-4155-9C03-0364B0C4E63B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D0A946F-29AA-4155-9C03-0364B0C4E63B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

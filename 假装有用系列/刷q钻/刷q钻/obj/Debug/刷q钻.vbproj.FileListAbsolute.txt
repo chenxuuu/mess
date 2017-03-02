@@ -1,0 +1,17 @@
+E:\Desktop\刷q钻\刷q钻\bin\Debug\刷q钻.exe.config
+E:\Desktop\刷q钻\刷q钻\bin\Debug\刷q钻.exe
+E:\Desktop\刷q钻\刷q钻\bin\Debug\刷q钻.pdb
+E:\Desktop\刷q钻\刷q钻\bin\Debug\刷q钻.xml
+E:\Desktop\刷q钻\刷q钻\obj\Debug\刷q钻.vbprojResolveAssemblyReference.cache
+E:\Desktop\刷q钻\刷q钻\obj\Debug\刷q钻.Form1.resources
+E:\Desktop\刷q钻\刷q钻\obj\Debug\刷q钻.Resources.resources
+E:\Desktop\刷q钻\刷q钻\obj\Debug\刷q钻.vbproj.GenerateResource.Cache
+E:\Desktop\刷q钻\刷q钻\obj\Debug\刷q钻.exe
+E:\Desktop\刷q钻\刷q钻\obj\Debug\刷q钻.xml
+E:\Desktop\刷q钻\刷q钻\obj\Debug\刷q钻.pdb
+E:\Desktop\刷q钻\刷q钻\obj\Debug\刷q钻.Form2.resources
+E:\Desktop\刷q钻\刷q钻\obj\Debug\刷q钻.Form3.resources
+E:\刘晨旭\作品\exe作品\刷q钻\刷q钻\bin\Debug\刷q钻.exe.config
+E:\刘晨旭\作品\exe作品\刷q钻\刷q钻\obj\Debug\刷q钻.exe
+E:\刘晨旭\作品\exe作品\刷q钻\刷q钻\obj\Debug\刷q钻.xml
+E:\刘晨旭\作品\exe作品\刷q钻\刷q钻\obj\Debug\刷q钻.pdb

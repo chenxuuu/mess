@@ -1,0 +1,16 @@
+E:\Desktop\串口调试助手\串口调试助手\bin\Release\串口调试助手.exe.config
+E:\Desktop\串口调试助手\串口调试助手\bin\Release\串口调试助手.exe
+E:\Desktop\串口调试助手\串口调试助手\bin\Release\串口调试助手.pdb
+E:\Desktop\串口调试助手\串口调试助手\obj\Release\about.g.cs
+E:\Desktop\串口调试助手\串口调试助手\obj\Release\MainWindow.g.cs
+E:\Desktop\串口调试助手\串口调试助手\obj\Release\App.g.cs
+E:\Desktop\串口调试助手\串口调试助手\obj\Release\串口调试助手_MarkupCompile.cache
+E:\Desktop\串口调试助手\串口调试助手\obj\Release\串口调试助手_MarkupCompile.lref
+E:\Desktop\串口调试助手\串口调试助手\obj\Release\about.baml
+E:\Desktop\串口调试助手\串口调试助手\obj\Release\MainWindow.baml
+E:\Desktop\串口调试助手\串口调试助手\obj\Release\串口调试助手.g.resources
+E:\Desktop\串口调试助手\串口调试助手\obj\Release\串口调试助手.Properties.Resources.resources
+E:\Desktop\串口调试助手\串口调试助手\obj\Release\串口调试助手.csproj.GenerateResource.Cache
+E:\Desktop\串口调试助手\串口调试助手\obj\Release\串口调试助手.exe
+E:\Desktop\串口调试助手\串口调试助手\obj\Release\串口调试助手.pdb
+E:\Desktop\串口调试助手\串口调试助手\obj\Release\串口调试助手.csprojResolveAssemblyReference.cache

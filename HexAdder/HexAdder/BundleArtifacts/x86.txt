@@ -1,2 +1,2 @@
-MainPackage=E:\Desktop\HexAdder\HexAdder\bin\x86\Release\HexAdder_1.0.3.0_x86.appx
-SymbolPackage=E:\Desktop\HexAdder\HexAdder\AppPackages\HexAdder_1.0.3.0_Test\HexAdder_1.0.3.0_x86.appxsym
+MainPackage=E:\刘晨旭\作品\exe作品\mess\HexAdder\HexAdder\bin\x86\Debug\HexAdder_1.0.4.0_x86_Debug.appx
+SymbolPackage=E:\Desktop\HexAdder_1.0.4.0_Debug_Test\HexAdder_1.0.4.0_x86_Debug.appxsym

@@ -68,9 +68,9 @@ by chenxublog.com（滑稽";
         private void Timer_Tick(object sender, object e)
         {
             rl -= 1;
-            RasedTimeLeft.Text = $"{(rl / 24 / 60 / 60).ToString().PadLeft(2,'0')} :{(rl % 24 / 60 / 60).ToString().PadLeft(2, '0')} :{(rl % 60 / 60).ToString().PadLeft(2, '0')} :{(rl % 60).ToString().PadLeft(2, '0')}";
+            RasedTimeLeft.Text = $"{(rl / 60 / 60 / 24).ToString().PadLeft(2,'0')} :{(rl / 60 / 60 % 24).ToString().PadLeft(2, '0')} :{(rl / 60 % 60).ToString().PadLeft(2, '0')} :{(rl % 60).ToString().PadLeft(2, '0')}";
             ll -= 1;
-            LostTimeLeft.Text = $"{(ll / 24 / 60 / 60).ToString().PadLeft(2, '0')} :{(ll % 24 / 60 / 60).ToString().PadLeft(2, '0')} :{(ll % 60 / 60).ToString().PadLeft(2, '0')} :{(ll % 60).ToString().PadLeft(2, '0')}";
+            LostTimeLeft.Text = $"{(ll / 60 / 60 / 24).ToString().PadLeft(2, '0')} :{(ll / 60 / 60 % 24).ToString().PadLeft(2, '0')} :{(ll / 60 % 60).ToString().PadLeft(2, '0')} :{(ll % 60).ToString().PadLeft(2, '0')}";
 
         }
     }

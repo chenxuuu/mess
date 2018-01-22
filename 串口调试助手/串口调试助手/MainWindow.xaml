@@ -50,13 +50,15 @@
                     <ComboBoxItem Content="9600"/>
                     <ComboBoxItem Content="14400"/>
                     <ComboBoxItem Content="19200"/>
-                    <ComboBoxItem Content="28400"/>
+                    <ComboBoxItem Content="38400"/>
                     <ComboBoxItem Content="56000"/>
                     <ComboBoxItem Content="57600"/>
                     <ComboBoxItem Content="115200" IsSelected="True"/>
                     <ComboBoxItem Content="128000"/>
+                    <ComboBoxItem Content="230400"/>
                     <ComboBoxItem Content="256000"/>
                     <ComboBoxItem Content="460800"/>
+                    <ComboBoxItem Content="921600"/>
                 </ComboBox>
 
                 <TextBlock Text="数据位：" Grid.Column="0" Grid.Row="2" Margin="0,6,0,0"/>

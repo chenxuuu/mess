@@ -8,12 +8,13 @@
         Title="串口调试助手" Height="400" Width="500" MinWidth="400" MinHeight="300" WindowStartupLocation="CenterScreen">
     <Grid MinWidth="2">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="auto"/>
-            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="6*"/>
         </Grid.ColumnDefinitions>
 
         <Grid Grid.Column="0" Margin="5">
             <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="auto"/>
                 <RowDefinition Height="auto"/>
@@ -87,7 +88,9 @@
             <Button Name="OpenCom" Content="打开串口" Margin="0,2,0,2" Grid.Row="2" Click="OpenCom_Click"/>
             <CheckBox Name="ShowAsHex" Content="以16进制显示" Margin="0,2,0,2" Grid.Row="3" HorizontalAlignment="Center"/>
             <Button Name="ClearReceiveTextBox" Content="清空接收数据" Margin="0,2,0,2" Grid.Row="4" Click="ClearReceiveTextBox_Click"/>
-            <Grid Grid.Row="6">
+            <CheckBox Name="AutoReplay" Content="自动回发数据（16进制）" Margin="0,2,0,2" Grid.Row="5" HorizontalAlignment="Center"/>
+            <TextBox Name="ReplayTextBox" Grid.Row="6" Margin="0,2,0,2" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Auto"/>
+            <Grid Grid.Row="7">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>

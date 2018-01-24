@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Timers;
 using System.Windows;
 using System.Windows.Controls;
@@ -189,6 +188,11 @@ namespace 串口调试助手
             {
                 ReceiveTextBox.Text += text;
                 ReceiveTextBox.ScrollToEnd();
+                if((bool)AutoReplay.IsChecked)
+                {
+                    byte[] bytesSend = hexStringToByte(ReplayTextBox.Text.ToUpper());
+                    serialPort1.Write(bytesSend, 0, bytesSend.Length);
+                }
             }
         }
 

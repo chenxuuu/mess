@@ -186,6 +186,10 @@ namespace 串口调试助手
         {
             if (text != "")
             {
+                if((bool)ShowWithEnter.IsChecked)
+                {
+                    text += "\r\n";
+                }
                 ReceiveTextBox.Text += text;
                 ReceiveTextBox.ScrollToEnd();
                 if((bool)AutoReplay.IsChecked)
@@ -275,7 +279,7 @@ namespace 串口调试助手
             byte b = (byte)"0123456789ABCDEF".IndexOf(c);
             if (b == (byte)"0".IndexOf('c') && ShowWarning)
             {
-                MessageBox.Show("16进制仅限1234567890abcdef这些字符！（大小写均可）");
+                //MessageBox.Show("16进制仅限1234567890abcdef这些字符！（大小写均可）");
                 ShowWarning = false;
             }
             return b;
@@ -301,7 +305,7 @@ namespace 串口调试助手
             string StringOut = "";
             for (int i = 0; i < len; i++)
             {
-                StringOut = StringOut + String.Format("{0:X2}", InBytes[i]);
+                StringOut = StringOut + String.Format("{0:X2}", InBytes[i]) + " ";
             }
             return StringOut;
         }

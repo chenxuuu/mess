@@ -88,7 +88,10 @@
             <Button Name="RefreshCom" Content="刷新串口" Margin="0,2,0,2" Grid.Row="1" Click="RefreshCom_Click"/>
             <Button Name="OpenCom" Content="打开串口" Margin="0,2,0,2" Grid.Row="2" Click="OpenCom_Click"/>
             <CheckBox Name="ShowAsHex" Content="以16进制显示" Margin="0,2,0,2" Grid.Row="3" HorizontalAlignment="Center"/>
-            <CheckBox Name="ShowWithEnter" Content="每段后自动换行" Margin="0,2,0,2" Grid.Row="4" HorizontalAlignment="Center"/>
+            <StackPanel Grid.Row="4" HorizontalAlignment="Center" Margin="0,2,0,2">
+                <CheckBox Name="ShowWithEnter" Content="每段自动换行，延时(ms)"/>
+                <TextBox Name="delay" Text="500"/>
+            </StackPanel>
             <Button Name="ClearReceiveTextBox" Content="清空接收数据" Margin="0,2,0,2" Grid.Row="5" Click="ClearReceiveTextBox_Click"/>
             <CheckBox Name="AutoReplay" Content="自动回发数据（16进制）" Margin="0,2,0,2" Grid.Row="6" HorizontalAlignment="Center"/>
             <TextBox Name="ReplayTextBox" Grid.Row="7" Margin="0,2,0,2" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Auto"/>

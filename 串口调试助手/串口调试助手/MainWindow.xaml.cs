@@ -211,6 +211,17 @@ namespace 串口调试助手
                 try
                 {
                     System.Threading.Thread.Sleep(10);
+                    if (serialPort.BytesToRead == 0)
+                        continue;
+                    int delay_ms = 500;
+                    this.Dispatcher.Invoke(new Action(delegate {
+                        try
+                        {
+                            delay_ms = int.Parse(delay.Text);
+                        }
+                        catch { }
+                    }));
+                    System.Threading.Thread.Sleep(delay_ms);
                     int n = serialPort.BytesToRead;// 先记录下来，避免某种原因，人为的原因，操作几次之间时间长，缓存不一致  
                     byte[] buf = new byte[n];// 声明一个临时数组存储当前来的串口数据  
                                              //received_count += n;// 增加接收计数  
@@ -262,6 +273,7 @@ namespace 串口调试助手
         private static bool ShowWarning = true;
         private static byte[] hexStringToByte(String hex)
         {
+            hex = hex.Replace(" ", "");
             int len = (hex.Length / 2);
             byte[] result = new byte[len];
             char[] achar = hex.ToCharArray();
